@@ -1,10 +1,50 @@
-### Hi there 👋
+# Hi there, PH here 👋
 
-My name is Paulo Henrique from Brazil (🇧🇷). Currently I'm QA at [AP Interactive](http://apinteractive.com.br/#/) but I'm learning about ReactJS, NodeJS and React Native and I'm on an English course to increase my reading and speaking.
-
-In my free time I like to watch soccer (⚽️), and movies (🎞️) and series (📺) and to listen music (🎵) and to play songs with my guitar (🎸), It's my therapy.
-
-Would you like to find me?
-
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/PauloHSouz)](https://twitter.com/PauloHSouz)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulo-henrique-89b148166/)](https://www.linkedin.com/in/paulo-henrique-89b148166/)
+[![Mail Me!](https://img.shields.io/badge/-Contact%20Me!-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:arthur.diegoo@hotmail.com)](mailto:phferreirasouza106@gmail.com)
+
+<div style="display: flex; width: 100%; justify-content: center">
+  <img style="margin-right:  50px" src="https://media.giphy.com/media/kEoOGc8MBjLwWecvPS/giphy.gif?cid=790b7611c30948569a7d8e880c9f592a657cf249060f56b8&rid=giphy.gif&ct=g" width="200" height="200" />\
+</div>
+
+```cs
+
+public class Human {
+
+  protected string Name { get; set;}
+
+  protected string Nationality { get; set; } 
+
+  protected string Me { get; set; }
+  
+  public string FavoriteBand { get; set; }
+
+  public List<object> Technologies { get; set; } = new List<object>();
+
+  public List<string> Languages {get; set;} = new List<string>();
+
+  public void HiVisitor() {
+
+    // About me
+    this.Name = "Paulo Henrique";
+    this.Nationality = "Brazilian";
+    this.FavoriteBand = "Hands Like House";
+    this.Me = "Music enthusiastic | Programming lover ❤";
+
+    // Tecnologies
+    this.Technologies.Add(new 
+    {
+        Javascript = new string[]     { "ReactJS", "Appium", "Nodejs" },
+        Csharp = new string[]         { "ASP.NET Core", "Universal Windows Platform" },
+        APIs = new string[]           { "REST", "OData", "SOAP" },
+        CloudComputing = new string[] { "Azure", "Azure Functions", "SOAP" }
+    });
+
+    //Languages
+    this.Language.Add("Fluent Portuguese");
+    this.Language.Add("Intermediate English");
+  }
+}
+```
+
+`💬 Let's talk about C# and Javascript?`
