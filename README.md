@@ -9,7 +9,7 @@
 
 ```cs
 
-public class Human {
+public class PH {
 
   protected string Name { get; set;}
 
@@ -23,7 +23,7 @@ public class Human {
 
   public List<string> Languages {get; set;} = new List<string>();
 
-  public void HiVisitor() {
+  public PH() {
 
     // About me
     this.Name = "Paulo Henrique";
