@@ -29,7 +29,7 @@ public class Human {
     this.Technologies.Add(new 
     {
         Javascript = new string[]     { "ReactJS", "Appium", "Nodejs" },
-        Csharp = new string[]         { "ASP.NET Core", "Universal Windows Platform" },
+        Csharp = new string[]         { ".NET Core", "ASP.NET Core", "LINQ", "Universal Windows Platform" },
         APIs = new string[]           { "REST", "OData", "SOAP" },
         CloudComputing = new string[] { "Azure", "Azure Functions", "SOAP" }
     });
