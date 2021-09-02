@@ -31,7 +31,7 @@ public class Human {
         Javascript = new string[]     { "ReactJS", "Appium", "Nodejs" },
         Csharp = new string[]         { ".NET Core", "ASP.NET Core", "LINQ", "Universal Windows Platform" },
         APIs = new string[]           { "REST", "OData", "SOAP" },
-        CloudComputing = new string[] { "Azure", "Azure Functions", "SOAP" }
+        CloudComputing = new string[] { "Azure", "Azure Functions", "Azure Blob Storage" }
     });
 
     //Languages
